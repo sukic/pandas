@@ -9,8 +9,8 @@ from sqlalchemy import create_engine
 # ==========
 # ==========
 
-working_directory = './data'			    # working directory
-input_csv_files = ['point_sample.csv','hovno.csv']  #  
+working_directory = './'			    # working directory
+input_csv_files = ['some_csv_file_1.csv','some_csv_file_2.csv']  #  
 
 separator = ','
 header_row = 0   # 0 means 1st line is header, use None (without quotes) for no header
